@@ -66,7 +66,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 # 開始訓練
 train_history = model.fit(x=X_Train4D_norm,
                           y=y_TrainOneHot, validation_split=0.2,
-                          epochs=3, batch_size=300, verbose=1)
+                          epochs=2, batch_size=300, verbose=1)
 
 import matplotlib.pyplot as plt
 
