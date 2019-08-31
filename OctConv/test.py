@@ -4,10 +4,12 @@ from keras.preprocessing.image import ImageDataGenerator
 from keras.callbacks import LearningRateScheduler, History
 # from tensorflow.contrib.tpu.python.tpu import keras_support
 from OctConv.models import *
+import numpy as np
 
 from keras.datasets import cifar10
 from keras.utils import to_categorical
 import pickle, os, time
+
 
 def lr_scheduler(epoch):
     x = 0.1
@@ -15,11 +17,25 @@ def lr_scheduler(epoch):
     if epoch >= 150: x /= 5.0
     return x
 
+
+def load_npz_data(file_path):
+    f = np.load(file_path)
+    X_train, y_train = f['x_train'], f['y_train']
+    X_test, y_test = f['x_test'], f['y_test']
+    f.close()
+    return (X_train, y_train), (X_test, y_test)
+
+
 def train(alpha):
-    (X_train, y_train), (X_test, y_test) = cifar10.load_data()
-    train_gen = ImageDataGenerator(rescale=1.0/255, horizontal_flip=True, 
-                                    width_shift_range=4.0/32.0, height_shift_range=4.0/32.0)
-    test_gen = ImageDataGenerator(rescale=1.0/255)
+    # (X_train, y_train), (X_test, y_test) = cifar10.load_data()
+
+    # (X_train, y_train), (X_test, y_test) = cifar10.load_data()
+    (X_train, y_train), (X_test, y_test) = load_npz_data(
+        "F:/数据集/Kim2016/malware_dataset/malware_dataset/train_test_data.npz")
+
+    train_gen = ImageDataGenerator(rescale=1.0 / 255, horizontal_flip=True,
+                                   width_shift_range=4.0 / 32.0, height_shift_range=4.0 / 32.0)
+    test_gen = ImageDataGenerator(rescale=1.0 / 255)
     y_train = to_categorical(y_train)
     y_test = to_categorical(y_test)
 
@@ -33,7 +49,7 @@ def train(alpha):
     model.summary()
 
     # convert to tpu model
-    # tpu_grpc_url = "grpc://"+os.environ["COLAB_TPU_ADDR"]
+    # tpu_grpc_url = "grpc://" + os.environ["COLAB_TPU_ADDR"]
     # tpu_cluster_resolver = tf.contrib.cluster_resolver.TPUClusterResolver(tpu_grpc_url)
     # strategy = keras_support.TPUDistributionStrategy(tpu_cluster_resolver)
     # model = tf.contrib.tpu.keras_to_tpu_model(model, strategy=strategy)
@@ -44,9 +60,9 @@ def train(alpha):
 
     start_time = time.time()
     model.fit_generator(train_gen.flow(X_train, y_train, batch_size, shuffle=True),
-                        steps_per_epoch=X_train.shape[0]//batch_size,
+                        steps_per_epoch=X_train.shape[0] // batch_size,
                         validation_data=test_gen.flow(X_test, y_test, batch_size, shuffle=False),
-                        validation_steps=X_test.shape[0]//batch_size,
+                        validation_steps=X_test.shape[0] // batch_size,
                         callbacks=[scheduler, hist], max_queue_size=5, epochs=200)
     elapsed = time.time() - start_time
     print(elapsed)
@@ -59,6 +75,6 @@ def train(alpha):
     # with open(f"octconv_alpha_{alpha}.pkl", "wb") as fp:
     #        pickle.dump(history, fp)
 
+
 if __name__ == "__main__":
     train(0)
-
