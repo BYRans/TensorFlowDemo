@@ -2,4 +2,7 @@ from keras.datasets import mnist
 from keras.utils import np_utils
 import numpy as np
 import math
-print(pow(math.ceil(np.sqrt(5)),2))
+
+
+a = [0 for x in range(0, 4)]
+print(a)

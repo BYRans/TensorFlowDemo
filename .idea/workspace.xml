@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ec2bfa8-9f0b-4551-a4a7-e906af5d815d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OctConv/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mal_class_by_binn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/mnist_by_binn.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/process_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malware_classification/att_lstm_cnn_classifer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malware_classification/common_process_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/malware_classification/mal_classfer_lstm_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/attention_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/demo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/lstm_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/mnist_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/process_raw_data_rnn_attention.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/train.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/trained_lstm_cnn.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/visualization.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rnn_attention/visualize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/PyProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PyProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
@@ -17,10 +26,12 @@
       <change beforePath="$PROJECT_DIR$/Keras/mnist_by_keras.py" beforeDir="false" afterPath="$PROJECT_DIR$/Keras/mnist_by_keras.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Keras/seq2seq.py" beforeDir="false" afterPath="$PROJECT_DIR$/Keras/seq2seq.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Keras/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Keras/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OctConv/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/OctConv/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/input_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/malware.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OctConv/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/OctConv/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/malware_classification/mal_class_by_cnn.py" beforeDir="false" afterPath="$PROJECT_DIR$/malware_classification/mal_class_by_cnn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mal_class_by_binn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/mal_class_by_binn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mnist.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/mnist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/mnist_by_binn.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/mnist_by_binn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/easy-install.pth" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/PKG-INFO" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.5.egg/EGG-INFO/PKG-INFO" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/setuptools.pth" afterDir="false" />
@@ -59,65 +70,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/malware_classification/mal_class_by_cnn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2280">
-              <caret line="99" column="49" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="49" />
+            <state relative-caret-position="-904">
+              <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rnn_attention/mnist_attention.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rnn_attention/trained_lstm_cnn.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/mnist_by_binn.py">
+        <entry file="file://$PROJECT_DIR$/malware_classification/att_lstm_cnn_classifer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="122" column="45" lean-forward="true" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
+            <state relative-caret-position="290">
+              <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="644" column="38" selection-start-line="644" selection-start-column="38" selection-end-line="644" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rnn_attention/demo.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="960">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
               <folding>
-                <element signature="e#486#523#0" expanded="true" />
+                <element signature="e#77#86#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/mal_class_by_binn.py">
+        <entry file="file://$PROJECT_DIR$/malware_classification/mal_classfer_lstm_attention.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/process_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="25" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-              <folding>
-                <element signature="e#486#523#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6312">
-              <caret line="274" column="26" selection-start-line="274" selection-start-column="26" selection-end-line="274" selection-end-column="26" />
+            <state relative-caret-position="288">
+              <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -135,8 +149,16 @@
     <findStrings>
       <find>axis</find>
       <find>Padding</find>
-      <find>the lables's count is</find>
       <find>epochs</find>
+      <find>the lables's count is</find>
+      <find>tqdm</find>
+      <find>testing_outputs</find>
+      <find>activation</find>
+      <find>load_npz_data</find>
+      <find>inputs</find>
+      <find>outputs</find>
+      <find>kernel_size</find>
+      <find>output</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -151,14 +173,11 @@
         <option value="$PROJECT_DIR$/preprocessData.py" />
         <option value="$USER_HOME$/Anaconda3/Lib/site-packages/keras/backend/tensorflow_backend.py" />
         <option value="$USER_HOME$/Anaconda3/Lib/site-packages/keras/datasets/mnist.py" />
-        <option value="$PROJECT_DIR$/Keras/test.py" />
         <option value="$PROJECT_DIR$/Keras/mnist_by_keras.py" />
         <option value="$PROJECT_DIR$/preprocess_data.py" />
         <option value="$PROJECT_DIR$/OctConv/eval.py" />
         <option value="$PROJECT_DIR$/OctConv/models.py" />
         <option value="$PROJECT_DIR$/OctConv/oct_conv2d.py" />
-        <option value="$PROJECT_DIR$/malware_classification/mal_class_by_cnn.py" />
-        <option value="$PROJECT_DIR$/OctConv/test.py" />
         <option value="$PROJECT_DIR$/OctConv/train.py" />
         <option value="$PROJECT_DIR$/Keras/seq2seq.py" />
         <option value="$PROJECT_DIR$/mnist_by_binn.py" />
@@ -166,14 +185,32 @@
         <option value="$PROJECT_DIR$/mal_class_by_binn.py" />
         <option value="$PROJECT_DIR$/test/process_data.py" />
         <option value="$PROJECT_DIR$/test/mnist_by_binn.py" />
+        <option value="$PROJECT_DIR$/Keras/rnn_attention/train.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/visualize.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/utils.py" />
+        <option value="$PROJECT_DIR$/test/test.py" />
+        <option value="$PROJECT_DIR$/Keras/test.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/test.py" />
+        <option value="$PROJECT_DIR$/malware_classification/mal_class_by_cnn.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/process_raw_data_rnn_attention.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/train.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/attention_utils.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/lstm_attention.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/mnist_attentjion.py" />
+        <option value="$PROJECT_DIR$/malware_classification/common_process_data.py" />
+        <option value="$PROJECT_DIR$/OctConv/test.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/demo.py" />
+        <option value="$PROJECT_DIR$/malware_classification/mal_classfer_lstm_attention.py" />
+        <option value="$PROJECT_DIR$/malware_classification/lstm_attention_outputs.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/mnist_attention.py" />
+        <option value="$PROJECT_DIR$/rnn_attention/trained_lstm_cnn.py" />
+        <option value="$PROJECT_DIR$/malware_classification/att_lstm_cnn_classifer.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="437" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -203,7 +240,27 @@
             <path>
               <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="PyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="MNIST_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="OctConv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="rnn_attention" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyProject" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PyProject" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="PyProject" type="b2602c69:ProjectViewProjectNode" />
@@ -234,7 +291,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/rnn_attention" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -244,16 +301,17 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\PyProject\test" />
-      <recent name="F:\PyProject\malware_classification" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\PyProject\rnn_attention" />
+      <recent name="F:\PyProject\malware_classification" />
+      <recent name="F:\PyProject\Keras\rnn_attention" />
       <recent name="F:\PyProject\test" />
       <recent name="F:\PyProject\venv" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\PyProject\malware_classification" />
       <recent name="F:\PyProject" />
-      <recent name="F:\PyProject\OctConv" />
-      <recent name="F:\PyProject\Keras\data" />
+      <recent name="F:\PyProject\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test (1)">
+  <component name="RunManager" selected="Python.trained_lstm_cnn">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="PyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -291,7 +349,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mnist_by_binn" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="att_lstm_cnn_classifer" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -299,12 +357,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="F:\PyProject\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/malware_classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\PyProject\test\mnist_by_binn.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/malware_classification/att_lstm_cnn_classifer.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -313,7 +371,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="seq2seq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mal_classfer_lstm_attention" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -321,12 +379,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="F:\PyProject\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Keras" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/malware_classification" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Keras/seq2seq.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/malware_classification/mal_classfer_lstm_attention.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,7 +393,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="mnist_attention" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -343,12 +401,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="F:\PyProject\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rnn_attention" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\PyProject\test\test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rnn_attention/mnist_attention.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -379,7 +437,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="training" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="trained_lstm_cnn" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PyProject" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,12 +445,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="F:\PyProject\venv\Scripts\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/rnn_attention" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/rnn_attention/trained_lstm_cnn.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -403,11 +461,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.mnist_by_binn" />
-        <item itemvalue="Python.seq2seq" />
+        <item itemvalue="Python.trained_lstm_cnn" />
+        <item itemvalue="Python.mal_classfer_lstm_attention" />
+        <item itemvalue="Python.att_lstm_cnn_classifer" />
+        <item itemvalue="Python.mnist_attention" />
         <item itemvalue="Python.train" />
-        <item itemvalue="Python.training" />
       </list>
     </recent_temporary>
   </component>
@@ -440,12 +498,12 @@
       <workItem from="1566906809412" duration="1348000" />
       <workItem from="1566908292810" duration="646000" />
       <workItem from="1566908985483" duration="24164000" />
-      <workItem from="1567152269902" duration="5015000" />
+      <workItem from="1567152269902" duration="65760000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141815000" />
+    <option name="totallyTimeSpent" value="202560000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,13 +518,13 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13646056" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1391258" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3003337" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.0567297" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38153505" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32369298" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3288889" />
@@ -487,250 +545,315 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rnn_attention/attention_utils.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/rnn_attention/attention_utils.py</url>
+          <line>52</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyProject$seq2seq.coverage" NAME="seq2seq Coverage Results" MODIFIED="1567086892186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
-    <SUITE FILE_PATH="coverage/PyProject$mnist_by_binn.coverage" NAME="mnist_by_binn Coverage Results" MODIFIED="1567089657058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyProject$fully_connected_feed.coverage" NAME="fully_connected_feed Coverage Results" MODIFIED="1563543981935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
     <SUITE FILE_PATH="coverage/PyProject$mnist_by_keras.coverage" NAME="mnist_by_keras Coverage Results" MODIFIED="1566826030899" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
-    <SUITE FILE_PATH="coverage/PyProject$train.coverage" NAME="train Coverage Results" MODIFIED="1567085264178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OctConv" />
-    <SUITE FILE_PATH="coverage/PyProject$mal_class_by_cnn.coverage" NAME="mal_class_by_cnn Coverage Results" MODIFIED="1567083095843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/malware_classification" />
-    <SUITE FILE_PATH="coverage/PyProject$training.coverage" NAME="training Coverage Results" MODIFIED="1567084683513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine" />
-    <SUITE FILE_PATH="coverage/PyProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1567090630796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1567518710366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OctConv" />
     <SUITE FILE_PATH="coverage/PyProject$preprocessData.coverage" NAME="preprocessData Coverage Results" MODIFIED="1566290395659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyProject$cifar10.coverage" NAME="cifar10 Coverage Results" MODIFIED="1567083957633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda3/Lib/site-packages/keras/datasets" />
-    <SUITE FILE_PATH="coverage/PyProject$test.coverage" NAME="test Coverage Results" MODIFIED="1567084455143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OctConv" />
+    <SUITE FILE_PATH="coverage/PyProject$train__1_.coverage" NAME="train (1) Coverage Results" MODIFIED="1567423494059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rnn_attention" />
+    <SUITE FILE_PATH="coverage/PyProject$test.coverage" NAME="test Coverage Results" MODIFIED="1567431112955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rnn_attention" />
     <SUITE FILE_PATH="coverage/PyProject$preprocess_data.coverage" NAME="preprocess_data Coverage Results" MODIFIED="1566828608564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$mal_classfer_lstm_attention.coverage" NAME="mal_classfer_lstm_attention Coverage Results" MODIFIED="1567664114118" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/malware_classification" />
+    <SUITE FILE_PATH="coverage/PyProject$process_raw_data_rnn_attention__1_.coverage" NAME="process_raw_data_rnn_attention (1) Coverage Results" MODIFIED="1567432950277" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/malware_classification" />
+    <SUITE FILE_PATH="coverage/PyProject$test__3_.coverage" NAME="test (3) Coverage Results" MODIFIED="1567430466157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OctConv" />
+    <SUITE FILE_PATH="coverage/PyProject$mnist_by_binn.coverage" NAME="mnist_by_binn Coverage Results" MODIFIED="1567089657058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyProject$test__4_.coverage" NAME="test (4) Coverage Results" MODIFIED="1567431788048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Keras" />
+    <SUITE FILE_PATH="coverage/PyProject$mnist_attention.coverage" NAME="mnist_attention Coverage Results" MODIFIED="1567663076378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rnn_attention" />
+    <SUITE FILE_PATH="coverage/PyProject$train.coverage" NAME="train Coverage Results" MODIFIED="1567519129649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OctConv" />
+    <SUITE FILE_PATH="coverage/PyProject$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1567427522131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/PyProject$att_lstm_cnn_classifer.coverage" NAME="att_lstm_cnn_classifer Coverage Results" MODIFIED="1567663304030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/malware_classification" />
+    <SUITE FILE_PATH="coverage/PyProject$training.coverage" NAME="training Coverage Results" MODIFIED="1567084683513" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine" />
+    <SUITE FILE_PATH="coverage/PyProject$mal_class_by_cnn.coverage" NAME="mal_class_by_cnn Coverage Results" MODIFIED="1567432569862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/malware_classification" />
+    <SUITE FILE_PATH="coverage/PyProject$lstm_attention.coverage" NAME="lstm_attention Coverage Results" MODIFIED="1567498247989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rnn_attention" />
+    <SUITE FILE_PATH="coverage/PyProject$trained_lstm_cnn.coverage" NAME="trained_lstm_cnn Coverage Results" MODIFIED="1567666615891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rnn_attention" />
+    <SUITE FILE_PATH="coverage/PyProject$common_process_data.coverage" NAME="common_process_data Coverage Results" MODIFIED="1567502735002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/malware_classification" />
+    <SUITE FILE_PATH="coverage/PyProject$process_raw_data_rnn_attention.coverage" NAME="process_raw_data_rnn_attention Coverage Results" MODIFIED="1567433587380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/rnn_attention" />
     <SUITE FILE_PATH="coverage/PyProject$mnist_with_summaries.coverage" NAME="mnist_with_summaries Coverage Results" MODIFIED="1563545311457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
     <SUITE FILE_PATH="coverage/PyProject$mnist.coverage" NAME="mnist Coverage Results" MODIFIED="1563762701268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TensorFlow/mnist.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rnn_attention/visualization.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="147" lean-forward="true" selection-start-line="147" selection-end-line="147" />
+        <state>
+          <caret selection-end-column="54" />
           <folding>
-            <element signature="e#1153#1191#0" expanded="true" />
+            <element signature="e#6#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TensorFlow/BUILD">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/visualize.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="48">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-750653626/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="4911" column="8" selection-start-line="4911" selection-start-column="8" selection-end-line="4911" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/typing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="2330" column="8" selection-start-line="2330" selection-start-column="8" selection-end-line="2330" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/backend/tensorflow_backend.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88728">
-          <caret line="3716" column="78" selection-start-line="3716" selection-start-column="74" selection-end-line="3716" selection-end-column="78" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/npyio.py" />
-    <entry file="file://$PROJECT_DIR$/TestTensorFlow.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/TensorFlow/input_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="1586" column="38" selection-start-line="1586" selection-start-column="38" selection-end-line="1586" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-750653626/scipy/spatial/ckdtree.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14784">
-          <caret line="619" selection-start-line="558" selection-end-line="624" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7320">
-          <caret line="305" column="19" selection-start-line="305" selection-start-column="19" selection-end-line="305" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-750653626/numpy/core/_multiarray_umath.py" />
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/sklearn/model_selection/_split.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="2046" selection-start-line="2046" selection-end-line="2046" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/datasets/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="45" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Keras/test.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/attention.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/datasets/imdb.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Keras/data/cmn-tw.txt">
+    <entry file="file://$PROJECT_DIR$/test/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="11" lean-forward="true" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+        <state relative-caret-position="24">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/process_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7317">
+          <caret line="38" column="47" selection-start-line="38" selection-start-column="47" selection-end-line="38" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/client/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13848">
-          <caret line="594" selection-start-line="594" selection-end-line="596" />
+        <state relative-caret-position="185">
+          <caret line="795" column="46" selection-start-line="795" selection-start-column="35" selection-end-line="795" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py">
+    <entry file="file://$PROJECT_DIR$/malware_classification/process_raw_data_rnn_attention.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19464">
-          <caret line="833" column="8" selection-start-line="833" selection-start-column="8" selection-end-line="833" selection-end-column="8" />
+        <state relative-caret-position="144">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm_display/datalore/display/supported_data_type.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1296">
-          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="711">
+          <caret line="313" column="22" selection-start-line="313" selection-start-column="22" selection-end-line="313" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/core.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17112">
-          <caret line="733" column="12" selection-start-line="733" selection-start-column="12" selection-end-line="733" selection-end-column="22" />
+        <state relative-caret-position="456">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+          <folding>
+            <element signature="e#193#240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Keras/mnist_by_keras.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/ops/sparse_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1608">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="162">
+          <caret line="1656" selection-start-line="1656" selection-end-line="1656" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="1666" column="10" selection-start-line="1666" selection-start-column="4" selection-end-line="1666" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2019.1/system/python_stubs/-750653626/numpy/random/mtrand.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6235">
+          <caret line="2575" column="4" selection-start-line="2575" selection-start-column="4" selection-end-line="2575" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rnn_attention/attention_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/errors_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="465" selection-start-line="465" selection-end-line="465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/common_shapes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="609" selection-start-line="609" selection-end-line="609" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="1872" selection-start-line="1872" selection-end-line="1872" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/cudnn_recurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-694">
+          <caret line="369" column="41" lean-forward="true" selection-start-line="369" selection-start-column="41" selection-end-line="369" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="766" selection-start-line="766" selection-end-line="766" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/ma/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="4534" lean-forward="true" selection-start-line="4528" selection-start-column="11" selection-end-line="4574" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/recurrent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="1969" column="40" lean-forward="true" selection-start-line="1969" selection-start-column="40" selection-end-line="1969" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="369" column="27" selection-start-line="369" selection-start-column="27" selection-end-line="369" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="1758" lean-forward="true" selection-start-line="1758" selection-end-line="1758" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keras/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/utils/np_utils.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/convolutional.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8040">
-          <caret line="356" selection-start-line="356" selection-end-line="356" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Keras/seq2seq_graph.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/mnist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-985">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+        <state relative-caret-position="120">
+          <caret line="14" column="54" lean-forward="true" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
           <folding>
-            <element signature="e#0#17#0" expanded="true" />
+            <element signature="e#0#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/input_data.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/process_raw_data_rnn_attention.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        <state relative-caret-position="-696">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
           <folding>
-            <element signature="e#746#784#0" expanded="true" />
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OctConv/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/gzip.py">
+    <entry file="file://$PROJECT_DIR$/malware_classification/common_process_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="433" column="19" lean-forward="true" selection-start-line="433" selection-start-column="19" selection-end-line="433" selection-end-column="19" />
+        <state relative-caret-position="48">
+          <caret line="33" column="41" lean-forward="true" selection-start-line="33" selection-start-column="41" selection-end-line="33" selection-end-column="41" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/datasets/cifar.py">
+    <entry file="file://$PROJECT_DIR$/test/mnist_by_binn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-1608">
+          <caret line="28" column="21" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="21" />
+          <folding>
+            <element signature="e#486#523#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OctConv/eval.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/wrappers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="549">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="693">
+          <caret line="243" column="8" selection-start-line="243" selection-start-column="8" selection-end-line="243" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/os.py">
+    <entry file="file://$PROJECT_DIR$/OctConv/oct_conv2d.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="724" selection-start-line="724" selection-end-line="724" />
+        <state relative-caret-position="-2052">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+          <folding>
+            <element signature="e#144#168#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/legacy/interfaces.py">
+    <entry file="file://$PROJECT_DIR$/OctConv/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="86" selection-start-line="86" selection-end-line="86" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/utils/data_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2256">
-          <caret line="124" column="28" lean-forward="true" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
+        <state relative-caret-position="-972">
+          <caret line="79" column="12" lean-forward="true" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OctConv/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-120">
-          <caret line="54" column="73" lean-forward="true" selection-start-line="54" selection-start-column="73" selection-end-line="54" selection-end-column="73" />
+        <state relative-caret-position="201">
+          <caret line="73" column="32" lean-forward="true" selection-start-line="73" selection-start-column="32" selection-end-line="73" selection-end-column="32" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
@@ -739,128 +862,134 @@
     </entry>
     <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/datasets/cifar10.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OctConv/oct_conv2d.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+        <state relative-caret-position="456">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/OctConv/train.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="115">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/OctConv/models.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/legacy/interfaces.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="90" column="32" lean-forward="true" selection-start-line="90" selection-start-column="32" selection-end-line="90" selection-end-column="32" />
+        <state relative-caret-position="123">
+          <caret line="86" selection-start-line="86" selection-end-line="86" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/lstm_attention.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="2108" lean-forward="true" selection-start-line="2108" selection-end-line="2108" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Keras/seq2seq.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="109" lean-forward="true" selection-start-line="109" selection-end-line="109" />
+        <state relative-caret-position="439">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/base.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/backend/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state relative-caret-position="-1224">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/collections/__init__.pyi">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/core.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="57" column="8" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="8" />
+        <state relative-caret-position="254">
+          <caret line="796" column="14" lean-forward="true" selection-start-line="796" selection-start-column="14" selection-end-line="796" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/venv/process_data.py" />
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/topology.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="558" selection-start-line="558" selection-end-line="558" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/legacy/layers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="398" column="4" selection-start-line="398" selection-start-column="4" selection-end-line="398" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/layers/convolutional.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1646">
+          <caret line="300" column="8" selection-start-line="300" selection-start-column="8" selection-end-line="300" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/malware_classification/mal_class_by_cnn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2280">
-          <caret line="99" column="49" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="49" />
+        <state relative-caret-position="-904">
+          <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mal_class_by_binn.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/process_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="41" column="25" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="25" />
+        <state relative-caret-position="960">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#77#86#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/test.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
-          <folding>
-            <element signature="e#486#523#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-2405">
+          <caret line="180" column="4" selection-start-line="180" selection-start-column="4" selection-end-line="180" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/contrib/learn/python/learn/datasets/mnist.py">
+    <entry file="file://$PROJECT_DIR$/rnn_attention/mnist_attention.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6312">
-          <caret line="274" column="26" selection-start-line="274" selection-start-column="26" selection-end-line="274" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/tensorflow/python/ops/rnn_cell_impl.py">
+    <entry file="file://$PROJECT_DIR$/malware_classification/mal_classfer_lstm_attention.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="346" column="17" selection-start-line="346" selection-start-column="6" selection-end-line="346" selection-end-column="17" />
+        <state relative-caret-position="288">
+          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/mnist_by_binn.py">
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/keras/engine/training.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="122" column="45" lean-forward="true" selection-start-line="122" selection-start-column="45" selection-end-line="122" selection-end-column="45" />
-          <folding>
-            <element signature="e#486#523#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="523">
+          <caret line="644" column="38" selection-start-line="644" selection-start-column="38" selection-end-line="644" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rnn_attention/trained_lstm_cnn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="29" column="52" selection-start-line="29" selection-start-column="52" selection-end-line="29" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/malware_classification/att_lstm_cnn_classifer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
         </state>
       </provider>
     </entry>
