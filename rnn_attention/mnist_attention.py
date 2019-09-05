@@ -14,7 +14,7 @@ TIME_STEPS = 25
 INPUT_DIM = 25
 lstm_units = 128
 num_classes = 15
-epochs = 100
+epochs = 40
 
 # data pre-processing
 # (X_train, y_train), (X_test, y_test) = mnist.load_data('mnist.npz')
@@ -97,7 +97,7 @@ import matplotlib.pyplot as plt
 def show_train_history(train_history, train, validation):
     plt.plot(train_history.history[train])
     plt.plot(train_history.history[validation])
-    plt.title('Train History')
+    plt.title('Train History of CNN')
     plt.ylabel(train)
     plt.xlabel('Epoch')
     plt.legend(['train', 'validation'], loc='upper left')
